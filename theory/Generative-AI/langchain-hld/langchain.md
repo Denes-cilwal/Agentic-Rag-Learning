@@ -150,3 +150,13 @@ LLMs       = Brain
 APIs       = Access
 LangChain  = System Glue
 ```
+
+```
+Benefits
+- concept of chain
+In LangChain, a chain is a structured pipeline where multiple components (LLMs, prompts, tools, retrievers, memory, parsers) are connected so the output of one step becomes the input of the next.
+
+Think of a chain as “controlled reasoning + execution flow” instead of a single LLM call.
+
+
+```
