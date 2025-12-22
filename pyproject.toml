@@ -13,5 +13,6 @@ dev = [
     "numpy>=2.3.5",
     "python-dotenv>=1.2.1",
     "scikit-learn>=1.8.0",
+    "torch>=2.9.1",
     "transformers>=4.57.3",
 ]
