@@ -1,5 +1,6 @@
 [dependency-groups]
 dev = [
+    "dotenv>=0.9.9",
     "google-generativeai>=0.8.6",
     "huggingface-hub>=0.36.0",
     "langchain>=1.2.0",
@@ -7,6 +8,7 @@ dev = [
     "langchain-core>=1.2.2",
     "langchain-google-genai>=4.1.2",
     "langchain-huggingface>=1.2.0",
+    "langchain-openai>=1.1.6",
     "numpy>=2.3.5",
     "python-dotenv>=1.2.1",
     "scikit-learn>=1.8.0",
