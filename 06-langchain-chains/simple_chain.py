@@ -30,3 +30,36 @@ The response from the model is then passed to the StrOutputParser, which process
 """
 
 print(result)
+
+print(chain.get_graph().draw_ascii())  # visualize the chain structure in ascii format
+
+"""chain graph structure:
+     +-------------+       
+     | PromptInput |       
+     +-------------+       
+            *              
+            *              
+            *              
+    +----------------+     
+    | PromptTemplate |     
+    +----------------+     
+            *              
+            *              
+            *              
+      +------------+       
+      | ChatOpenAI |       
+      +------------+       
+            *              
+            *              
+            *              
+   +-----------------+     
+   | StrOutputParser |     
+   +-----------------+     
+            *              
+            *              
+            *              
++-----------------------+  
+| StrOutputParserOutput |
+
+
+"""
