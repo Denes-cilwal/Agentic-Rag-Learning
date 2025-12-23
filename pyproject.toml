@@ -11,6 +11,7 @@ dev = [
     "langchain-huggingface>=1.2.0",
     "langchain-openai>=1.1.6",
     "numpy>=2.3.5",
+    "pydantic>=2.12.5",
     "python-dotenv>=1.2.1",
     "scikit-learn>=1.8.0",
     "sentence-transformers>=5.2.0",
