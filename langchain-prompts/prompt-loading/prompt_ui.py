@@ -20,6 +20,8 @@ template = load_prompt('langchain-prompts/prompt-loading/template.json')
 
 
 if st.button('Summarize'):
+    # first template is formed then passed to model to create a chain
+    # and invoked with user inputs as dict 
     chain = template | model
     result = chain.invoke({
         'paper_input':paper_input,
