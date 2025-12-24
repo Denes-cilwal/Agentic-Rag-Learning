@@ -1,0 +1,4 @@
+product_id,brand,product_name,category,price,currency,rating,stock,description
+P001,Apple,MacBook Air M2,Laptop,114900,INR,4.8,12,"Apple MacBook Air with M2 chip, 16GB RAM, 256GB SSD"
+P002,Samsung,Galaxy Book4 Edge,Laptop,129990,INR,4.6,8,"Samsung Copilot+ AI PC with Snapdragon X Elite processor"
+P003,Dell,XPS 13,Laptop,139990,
