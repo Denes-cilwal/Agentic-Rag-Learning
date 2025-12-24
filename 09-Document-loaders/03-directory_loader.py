@@ -8,6 +8,8 @@ loader = DirectoryLoader(
     loader_cls=PyPDFLoader
 )
 
+# lazy load documents one by one (loader.load() would load all at once it would be very memory intensive)
+# that's why we use lazy_load()
 docs = loader.lazy_load()
 
 for document in docs:
