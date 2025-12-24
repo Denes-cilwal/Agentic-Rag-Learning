@@ -52,6 +52,11 @@ LangChain does:
 
 branchA.invoke(INPUT)
 branchB.invoke(INPUT)
+
+Same input to each branch” means both branches get the same dictionary, not different ones:
+
+✅ Tweet branch input: {"topic":"AI"}
+✅ LinkedIn branch input: {"topic":"AI"}
 with the exact same INPUT object/value.
 
 
